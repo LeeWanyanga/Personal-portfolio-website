@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(210, 102, 211, 0.796);
+    margin: 0;
+    padding: 0;
+}
+<!-- there are 10 types of selectors -->
+
+/* Universal - *{property:value} */ - (selects all elements in the page)
+/* Type/element - <element>{property:value} */ - (selects specified element)
+/* Class - .highlight{property:value} */ - (selects a specific class attribute)
+/* ID Selector - #button{} */ - (selects a specific ID attribute )
+/* Attribute selector - input[type=""] {property:value}*/ - (selects an elements specific attribute)
+/* Descendants - art <p>*/ - (selects a descendant of an element)
+/* Child - ol>li {property:value} */ - (selects a child of an element)
+/* pseudoclass */ - (it highlights the key word)

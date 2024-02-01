@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector Example</title>
+    <link rel="stylesheet" href="selectortypes.css">
+</head>
+<body>
+
+  <!-- No.1 -->
+    <!-- Universal selector: Selects all elements within the page. Example below -->
+    <div class="universal-selector">
+        <p>This is a paragraph with universal selector styles</p>
+        <span>This is a span with universal selector styles</span>
+    </div>
+
+  <!-- No.2 -->
+    <!-- Type/Element selector: This selector will select a given element. E.g Below -->
+    <p>This is a paragraph with type selector styles</p>
+    <div>This is a div with type selector styles</div>
+  
+    <!-- No.3 -->
+    <!-- Class selector: Will select all elements with the given class.
+      A class is an attribute you place on a html element. E.g Below -->
+     <div class="highlight">This div has a highlight class</div>
+    <p class="highlight">This paragraph has a highlight class</p>
+  
+    <!-- No.4 -->
+    <!-- ID selector: are similar to class selectors
+      They select an element with the given ID, which is another attribute
+      you place on a HTML element. The major difference between classes and
+      IDs is that an element can only have one ID. It cannot be repeated on
+      a single page and should not contain any whitespace: E.g below-->
+    <div id="myId">This div has an ID of "myID"</div>
+  
+    <!-- No.5 -->
+    <!-- Attribute selector: Selects elements with a specific attribute and value -->
+    <input type="text" placeholder="Text Input">
+  
+    <!-- No.6 -->
+    <!-- Descendant selector: Selects all elements that are descendants of a
+    specified element. -->
+    <article>
+      <p>This paragraph is inside an article</p>
+    </article>
+  
+    <!-- No.7 -->
+    <!-- Child selector: Selects all direct children of a specified element. -->
+    <ul>
+     <li>Item 1</li>
+     <li>Item 2</li>
+   </ul>
+</body>
+</html>
